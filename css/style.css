@@ -1,16 +1,18 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
 }
 
 a{
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     transition: 0.3s;
 }
 
 a:hover{
     opacity: 0.7;
+    color: rgb(0, 84, 163);
 }
 
 .logo{
@@ -24,7 +26,7 @@ nav{
     justify-content: space-around;
     align-items: center;
     font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-    background-image: linear-gradient(to right,rgb(23, 161, 5), rgb(12, 211, 45));
+    background-image: linear-gradient(to right,rgb(224, 228, 224), rgb(184, 199, 187));
     height: 8vh;
 }
 
@@ -59,7 +61,7 @@ img{
 .mobile-menu div{
     width: 32px;
     height: 2px;
-    background: white;
+    background: black;
     margin: 8px;
     transition: 0.3s;
 }
@@ -76,7 +78,7 @@ img{
         right: 0;
         width: 50vw;
         height: 92vh;
-        background: rgb(33, 160, 79);
+        background: rgb(236, 241, 238);
         opacity: 90%;
         flex-direction: column;
         align-items: center;
@@ -129,6 +131,15 @@ img{
     img{
         width: 70%;
         margin: 200px 200px 200px 50px;
+    }
+    #mensagem{
+        display: none;
+    }
+    #mensagem > nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 8vh;
     }
     
 }
