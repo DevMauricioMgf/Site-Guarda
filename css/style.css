@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    border: 0;
     font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
 }
 
@@ -78,6 +79,11 @@ main{
 
 .conteudo > h3{
     color: rgba(46, 133, 29, 0.712);
+    text-align: left;
+}
+
+.conteudo > p{
+    font-size: 1.3rem;
 }
 
 .caixa1, .caixa2{
@@ -181,6 +187,22 @@ main{
     }
     #logo-footer{
         width: 30%;
+    }
+
+    footer > p {
+        font-size: 0.8rem;
+    }
+
+    .conteudo{
+        margin-left: -45px;
+        margin-right: -45px;
+    }
+    .conteudo > p{
+        font-size: 1rem;
+    }
+
+    #reserva, #host{
+        width: 35%;
     }
     
     
