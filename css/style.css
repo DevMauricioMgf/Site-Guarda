@@ -93,24 +93,11 @@ main{
 }
 
 .caixa2 {
-    background-image: url(images/churrasqueira.jpg);
+    background-image: url(../images/churrasqueira.jpg);
 }
 
-.conteudo-titulo {
-    position: absolute;
-    left: 0;
-    top: 45%;
-    width: 100%;
-    text-align: center; 
-}
-
-.conteudo-titulo span.titulo {
-    color: #fff;
-    background-color: #111;
-    padding: 18px;
-    font-size: 25px;
-    letter-spacing: 5px;
-    text-transform: uppercase;
+.espaco{
+    height: 60vh;
 }
 
 /* Fim Parallax */
