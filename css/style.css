@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
@@ -89,7 +93,7 @@ main{
 .caixa1, .caixa2, .caixa4{
     position: relative;
     height: 100%;
-    opacity: 0.7;
+    opacity: 0.9;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -149,6 +153,25 @@ main{
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    z-index: -1;
+}
+
+.conteudo-titulo {
+    position: absolute;
+    left: 0;
+    top: 45%;
+    width: 100%;
+    text-align: center; 
+    
+}
+
+.conteudo-titulo span.titulo {
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.76);
+    padding: 18px;
+    font-size: 40px;
+    letter-spacing: 3px;
+    font-family: 'Kaushan Script', cursive;
 }
 
 #formulario-contato{
@@ -156,6 +179,7 @@ main{
     background-color: white;
     text-align: justify;
     padding: 50px 80px;
+    
 }
 
 #formulario-contato > h3{
