@@ -33,7 +33,7 @@ nav{
     justify-content: space-around;
     align-items: center;
     font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-    background-image: linear-gradient(to right,rgb(224, 228, 224), rgb(184, 199, 187));
+    background-image: linear-gradient(to right,rgb(233, 226, 226), rgb(255, 255, 255));
     height: 8vh;
 }
 
