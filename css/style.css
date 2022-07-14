@@ -117,6 +117,9 @@ main{
 /* Fim Parallax */
 
 
+.map-sm{
+    display: none;
+}
 /* Sobre */
 
 .caixa3 {
@@ -128,6 +131,52 @@ main{
     background-position: center;
     z-index: -1;
 }
+
+/* Inicio contato */
+
+#area-contato{
+    display: flex;
+    margin: 40px;
+    text-align: center;
+}
+
+#formulario-contato{
+    color: #777;
+    background-color: white;
+    text-align: justify;
+    padding: 50px 80px;
+}
+
+#formulario-contato > h3{
+    color: rgba(46, 133, 29, 0.712);
+    text-align: left;
+}
+
+#formulario-contato > p{
+    font-size: 1.2rem;
+}
+
+.area-localizacao {
+    color: #777;
+    background-color: white;
+    text-align: justify;
+    padding: 50px 80px;
+    width: 40vw;
+}
+
+.area-localizacao > p{
+    font-size: 1.2rem;
+}
+
+.area-localizacao > h3{
+    color: rgba(46, 133, 29, 0.712);
+    text-align: left;
+}
+
+
+
+
+/* Fim contato */
 
 @media (max-width: 999px) {
     body {
@@ -177,17 +226,17 @@ main{
         }
       }
       
-      .mobile-menu.active .line1 {
-        transform: rotate(-45deg) translate(-8px, 8px);
-      }
-      
-      .mobile-menu.active .line2 {
-        opacity: 0;
-      }
-      
-      .mobile-menu.active .line3 {
-        transform: rotate(45deg) translate(-5px, -7px);
-      }
+    .mobile-menu.active .line1 {
+    transform: rotate(-45deg) translate(-8px, 8px);
+    }
+    
+    .mobile-menu.active .line2 {
+    opacity: 0;
+    }
+    
+    .mobile-menu.active .line3 {
+    transform: rotate(45deg) translate(-5px, -7px);
+    }
 
     #logo{
         width: 70%;
@@ -220,6 +269,51 @@ main{
 
     #reserva, #host{
         width: 35%;
+    }
+
+    /* Contato */
+
+    #area-contato{
+        display: block;
+        margin-left: -60px;
+    }
+
+    #mensagem{
+        display: block;
+    }
+
+    .map-mg{
+        display: none;
+    }
+    
+    .map-sm{
+        display: block;
+        width: 90vw;
+        text-align: center;
+    }
+
+    #formulario-contato{
+        
+        width: 100vw;
+    }
+
+    #formulario-contato > p{
+        font-size: 1rem;
+        text-align: left;
+    }
+
+    .area-localizacao {
+        color: #777;
+        background-color: white;
+        text-align: justify;
+        padding: 50px 80px;
+        width: 100vw;
+        
+    }
+    
+    .area-localizacao > p{
+        font-size: 0.9rem;
+        text-align: center;
     }
     
     
