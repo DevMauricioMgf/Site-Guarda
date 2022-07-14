@@ -126,15 +126,19 @@ main{
 }
 /* Sobre */
 
-.caixa3 {
+.capa-sobre {
     background-image: url(../images/capa-sobree.jpg);
     position: relative;
     height: 100%;
+    opacity: 0.8;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     z-index: -1;
 }
+
+
 
 /* Inicio contato */
 
