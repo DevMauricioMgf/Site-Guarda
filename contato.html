@@ -47,15 +47,15 @@
     <div id="formulario-contato">
       <h3>Envie uma mensagem</h3>
       <p> Faça alguma duvida ou nos de um feedback </p>
-      <form id="formulario" action="submit">
+      <form method="post" id="formulario" action="./email.php">
         <div id="email" class="form-group">
-            <label for="email">Email</label>
+            <label name="email" for="email">Email</label>
             <input class="form-control" type="email" id="email" placeholder="Digite seu email">
         </div>
         <!-- textarea -->
         <div id="mensagem" class="form-group">
-            <label for="mensagem">Mensagem</label>
-            <textarea class=" textarea form-control" id="mensagem" rows="3" placeholder="Digite uma mensagem..."></textarea>
+            <label name="mesage" for="mensagem">Mensagem</label>
+            <textarea name="mesage"class=" textarea form-control" id="mensagem" rows="3" placeholder="Digite uma mensagem..."></textarea>
         </div>
         <button class="btn btn-outline-light btn-success"type="submit">Enviar</button>
     </form>
